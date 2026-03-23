@@ -1,0 +1,359 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:white;
+}
+
+
+.item{
+background:yellowgreen;
+color:white;
+padding:12px 60px;
+display:flex;
+border-radius:40px;
+margin:20px 60px;
+font-size:14px;
+}
+
+.item .right{
+margin-left:auto;
+}
+
+
+.navbar{
+display:flex;
+align-items:center;
+padding:20px 60px;
+background:white;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:yellowgreen;
+}
+
+
+.nav{
+list-style:none;
+display:flex;
+gap:30px;
+margin-left:60px;
+padding:0;
+}
+
+.nav li{
+display:flex;
+align-items:center;
+}
+
+.nav a{
+text-decoration:none;
+color:gray;
+font-size:18px;
+}
+
+.nav a:hover{
+color:yellowgreen;
+}
+
+.nav a.active{
+color:yellowgreen;
+font-weight:bold;
+}
+
+
+select{
+border:none;
+font-size:18px;
+color:gray;
+background:white;
+cursor:pointer;
+}
+
+
+.icons{
+margin-left:auto;
+font-size:22px;
+}
+
+.banner{
+background:url("https://images.unsplash.com/photo-1610832958506-aa56368176cf");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+font-weight: bolder;
+padding:80px;
+}
+
+
+.center{
+font-size:18px;
+}
+
+.highlight{
+color:yellowgreen;
+font-weight:bold;
+}
+
+
+.shop-header{
+padding:40px 60px;
+background:white;
+}
+
+.shop-title{
+font-size:36px;
+color:#555;
+}
+
+body{
+font-family: Arial;
+margin:0;
+background:#f6f6f6;
+}
+
+
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+}
+
+.logo{
+color:#6dbd2b;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#555;
+}
+
+.icons{
+font-size:20px;
+}
+
+
+
+.cart{
+width:80%;
+margin:40px auto;
+background:white;
+padding:20px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+text-align:left;
+padding:15px;
+border-bottom:2px solid #ddd;
+}
+
+td{
+padding:20px 15px;
+border-bottom:1px solid #eee;
+}
+
+td img{
+width:60px;
+}
+
+/* Quantity */
+
+.qty{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.qty button{
+width:30px;
+height:30px;
+border-radius:50%;
+border:1px solid #ccc;
+background:white;
+cursor:pointer;
+}
+
+
+.remove{
+width:35px;
+height:35px;
+border-radius:50%;
+border:none;
+background:#eee;
+color:red;
+font-size:18px;
+cursor:pointer;
+}
+
+
+
+.coupon{
+margin-top:30px;
+display:flex;
+gap:15px;
+}
+
+.coupon input{
+padding:10px;
+width:200px;
+border:1px solid #ddd;
+border-radius:20px;
+}
+
+.coupon button{
+padding:10px 20px;
+border-radius:20px;
+border:1px solid orange;
+background:white;
+color:#6dbd2b;
+cursor:pointer;
+}
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:#7ac143;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#555;
+}
+
+.icons{
+font-size:20px;
+}
+
+
+
+.coupon-section{
+margin:60px 100px;
+}
+
+.coupon-section input{
+padding:12px;
+width:220px;
+border:1px solid #ddd;
+border-radius:20px;
+}
+
+.coupon-btn{
+padding:12px 25px;
+margin-left:20px;
+border-radius:25px;
+border:2px solid orange;
+background:white;
+color:#7ac143;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+.cart-container{
+display:flex;
+justify-content:flex-end;
+padding:20px 100px;
+}
+
+.cart-total{
+background:#eee;
+width:350px;
+padding:30px;
+border-radius:10px;
+}
+
+.cart-total h2{
+margin-bottom:30px;
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+margin:15px 0;
+}
+
+.total{
+border-top:1px solid #ccc;
+padding-top:15px;
+font-weight:bold;
+}
+
+.checkout{
+margin-top:25px;
+width:100%;
+padding:15px;
+border-radius:30px;
+border:2px solid orange;
+background:white;
+color:#7ac143;
+font-weight:bold;
+cursor:pointer;
+}
+
+.footer{
+background:#4f6666;
+color:white;
+padding:60px;
+}
+
+.footer-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:40px;
+margin-top:30px;
+}
+
+.footer-box h3{
+margin-bottom:15px;
+}
+
+.footer-box ul{
+list-style:none;
+padding:0;
+}
+
+.footer-box ul li{
+margin:6px 0;
+}
+
+.footer-bottom{
+margin-top:40px;
+display:flex;
+justify-content:space-between;
+font-size:14px;
+}
+.payment img{
+width:50px;
+margin-right:5px;
+margin-top:10px;
+}
+

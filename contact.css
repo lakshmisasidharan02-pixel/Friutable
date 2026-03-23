@@ -1,0 +1,268 @@
+body{
+margin:0;
+font-family:Arial;
+background:white;
+}
+
+
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:yellowgreen;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:darkgrey;
+font-size:16px;
+}
+
+nav a.active{
+color:yellowgreen;
+}
+
+.icons i{
+margin-left:20px;
+font-size:18px;
+color:yellowgreen;
+cursor:pointer;
+}
+
+
+
+
+.contact{
+text-align:center;
+padding:60px 80px;
+}
+
+.contact h1{
+color:yellowgreen;
+font-size:40px;
+margin-bottom:15px;
+}
+
+.contact p{
+color:darkgray;
+max-width:700px;
+margin:auto;
+line-height:1.6;
+}
+
+.contact a{
+display:inline-block;
+margin-top:10px;
+color:yellowgreen;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+
+
+.map{
+margin-top:40px;
+border-radius:10px;
+overflow:hidden;
+}
+
+.map iframe{
+width:100%;
+height:450px;
+border:0;
+}
+
+body{
+font-family: Arial;
+background:white;
+margin:0;
+padding:40px;
+}
+
+.contact-container{
+display:flex;
+gap:40px;
+background:white;
+padding:40px;
+border-radius:10px;
+}
+
+
+
+.contact-form{
+flex:2;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+background:white;
+}
+
+.contact-form textarea{
+height:150px;
+resize:none;
+}
+
+.contact-form button{
+padding:15px;
+border:2px solid orange;
+background:white;
+border-radius:10px;
+color:green;
+font-size:16px;
+cursor:pointer;
+}
+
+
+.contact-info{
+flex:1;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.info-box{
+display:flex;
+gap:20px;
+align-items:center;
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+.info-box i{
+font-size:25px;
+color:yellowgreen;
+}
+
+.info-box h3{
+margin:0;
+}
+
+.info-box p{
+margin:5px 0 0;
+color:gray;
+}
+
+body{
+margin:0;
+font-family:Arial;
+}
+
+.footer{
+background:darkgray;
+color:white;
+padding:50px 80px;
+}
+
+
+
+.subscribe{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo-area h2{
+color:yellowgreen;
+margin:0;
+}
+
+.logo-area p{
+color:orange;
+margin:5px 0 0;
+}
+
+.subscribe-box{
+display:flex;
+}
+
+.subscribe-box input{
+padding:15px;
+width:300px;
+border:none;
+border-radius:30px 0 0 30px;
+}
+
+.subscribe-box button{
+padding:15px 25px;
+border:none;
+background:yellowgreen;
+color:white;
+border-radius:0 30px 30px 0;
+cursor:pointer;
+}
+
+.social i{
+border:1px solid orange;
+padding:10px;
+border-radius:50%;
+margin-left:10px;
+}
+
+
+.footer-content{
+display:flex;
+justify-content:space-between;
+margin-top:40px;
+}
+
+.footer-box{
+width:22%;
+}
+
+.footer-box h3{
+margin-bottom:15px;
+}
+
+.footer-box ul{
+list-style:none;
+padding:0;
+}
+
+.footer-box ul li{
+margin:8px 0;
+}
+
+.read{
+padding:10px 20px;
+border:1px solid orange;
+background:none;
+color:yellowgreen;
+border-radius:20px;
+cursor:pointer;
+}
+
+.payment img{
+width:50px;
+margin-right:5px;
+margin-top:10px;
+}
+
+
+
+.bottom{
+display:flex;
+justify-content:space-between;
+margin-top:40px;
+font-size:14px;
+color: yellowgreen;
+}
